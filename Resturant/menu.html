@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restaurant Le Gourmet — Menu</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet" />
+  </head>
+  <body class="menu-page">
+    <!-- NAV -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a class="logo" href="index.html">
+          <i class="fas fa-utensils"></i><span>Le&nbsp;Gourmet</span>
+        </a>
+        <ul class="nav-menu">
+          <li><a class="nav-link" href="index.html">Accueil</a></li>
+          <li><a class="nav-link active" href="menu.html">Menu</a></li>
+          <li><a class="nav-link" href="index.html#contact">Contact</a></li>
+          <li>
+            <a class="nav-link admin-btn" href="admin/login.php">Admin</a>
+          </li>
+        </ul>
+        <button class="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="menu-header">
+      <div class="container">
+        <h1>Notre Menu</h1>
+        <p>Découvrez nos créations culinaires saisonnières</p>
+      </div>
+    </header>
+
+    <!-- Filters -->
+    <section class="menu-filters">
+      <div class="container">
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">
+            <i class="fas fa-th"></i> Tous
+          </button>
+          <button class="filter-btn" data-filter="Entrée">
+            <i class="fas fa-leaf"></i> Entrées
+          </button>
+          <button class="filter-btn" data-filter="Plat">
+            <i class="fas fa-utensils"></i> Plats
+          </button>
+          <button class="filter-btn" data-filter="Dessert">
+            <i class="fas fa-birthday-cake"></i> Desserts
+          </button>
+          <button class="filter-btn" data-filter="Boisson">
+            <i class="fas fa-wine-glass"></i> Boissons
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Items -->
+    <section class="menu-section">
+      <div class="container">
+        <div id="menu-container" class="menu-grid">
+          <div class="loading">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Chargement du menu…</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <i class="fas fa-utensils"></i><span>Le&nbsp;Gourmet</span>
+          </div>
+          <p>Une expérience culinaire unique depuis 2003.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Liens rapides</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Suivez-nous</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 Le Gourmet. Tous droits réservés.
+      </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+  </body>
+</html>
