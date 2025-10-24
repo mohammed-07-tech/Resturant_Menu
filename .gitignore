@@ -1,17 +1,21 @@
-# OS / Editor
-.DS_Store
-Thumbs.db
-.vscode/
-
-# Dependencies
+# Node / Frontend
 node_modules/
+dist/
+build/
 
-# Logs / Cache
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Environment files
+.env
+.env.local
+
+# Logs
 *.log
 
-# Env/secrets
-.env
-.env.*
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs / Editors
+.vscode/
+.idea/
+vendor/
+storage/

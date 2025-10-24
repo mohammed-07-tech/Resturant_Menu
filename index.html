@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restaurant Le Gourmet – Accueil</title>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet" />
+    <meta
+      name="description"
+      content="Le Gourmet – cuisine française raffinée, produits frais, service attentionné." />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a class="logo" href="index.html">
+          <i class="fas fa-utensils"></i>
+          <span>Le&nbsp;Gourmet</span>
+        </a>
+        <ul class="nav-menu">
+          <li><a class="nav-link active" href="index.html">Accueil</a></li>
+          <li><a class="nav-link" href="menu.html">Menu</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+          <li>
+            <a class="nav-link admin-btn" href="admin/login.php">Admin</a>
+          </li>
+        </ul>
+        <button class="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero" role="banner" aria-label="Bienvenue">
+      <div class="hero-content">
+        <h1 class="hero-title">Bienvenue au Restaurant Le&nbsp;Gourmet</h1>
+        <p class="hero-subtitle">
+          Cuisine française moderne, produits de saison, service attentionné.
+        </p>
+        <a class="cta-button" href="menu.html"
+          ><i class="fas fa-eye"></i> Découvrir notre menu</a
+        >
+      </div>
+    </header>
+
+    <!-- À PROPOS -->
+    <section class="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text fade-left">
+            <h2>Notre Histoire</h2>
+            <p>
+              Depuis plus de 20 ans, nous accueillons nos invités dans un cadre
+              chaleureux et raffiné. Notre chef marie tradition et modernité
+              pour des plats authentiques.
+            </p>
+            <p>
+              Nous sélectionnons des produits frais et de saison afin d'offrir
+              une expérience culinaire mémorable.
+            </p>
+            <div class="features">
+              <div class="feature">
+                <i class="fas fa-leaf"></i><span>Produits frais</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-award"></i><span>Qualité primée</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-heart"></i><span>Service attentionné</span>
+              </div>
+            </div>
+          </div>
+          <figure class="about-image fade-right">
+            <img
+              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80"
+              alt="Salle du restaurant Le Gourmet"
+              loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPÉCIALITÉS AVEC ANIMATIONS LUCCIOLA -->
+    <section class="specialties-section">
+      <div class="container">
+        <h2 class="section-title">Nos Spécialités</h2>
+        
+        <div class="specialties-grid">
+          <!-- CARD 1: Entrées -->
+          <div class="specialty-card">
+            <div class="specialty-image-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=400&fit=crop" 
+                alt="Entrées raffinées - Restaurant Le Gourmet"
+                class="specialty-image"
+                loading="lazy">
+              <div class="specialty-overlay"></div>
+            </div>
+            <div class="specialty-content">
+              <h3>Entrées raffinées</h3>
+              <p>Assiettes créatives pour éveiller vos papilles</p>
+            </div>
+          </div>
+
+          <!-- CARD 2: Plats -->
+          <div class="specialty-card">
+            <div class="specialty-image-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1558030006-450675393462?w=500&h=400&fit=crop" 
+                alt="Plats d'exception - Restaurant Le Gourmet"
+                class="specialty-image"
+                loading="lazy">
+              <div class="specialty-overlay"></div>
+            </div>
+            <div class="specialty-content">
+              <h3>Plats d'exception</h3>
+              <p>Produits de saison, précision et équilibre des saveurs</p>
+            </div>
+          </div>
+
+          <!-- CARD 3: Desserts -->
+          <div class="specialty-card">
+            <div class="specialty-image-wrapper">
+              <img 
+                src="https://www.apero-bordeaux.fr/wp-content/uploads/2024/08/titre-test-2.webp" 
+                alt="Desserts gourmands - Restaurant Le Gourmet"
+                class="specialty-image"
+                loading="lazy">
+              <div class="specialty-overlay"></div>
+            </div>
+            <div class="specialty-content">
+              <h3>Desserts gourmands</h3>
+              <p>Finale sucrée, élégante et généreuse</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIE CULINAIRE -->
+    <section class="dishes-section">
+      <div class="container">
+        <h2 class="section-title">Nos Créations Culinaires</h2>
+        
+        <div class="gallery">
+          <!-- Card 1 -->
+          <div class="image-card fade-up">
+            <img 
+              src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=500&fit=crop" 
+              alt="Pasta Carbonara"
+              loading="lazy">
+            <div class="image-overlay">
+              <h3>Pasta Carbonara</h3>
+              <p>Authentique recette italienne avec crème fraîche et lardons</p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="image-card fade-up">
+            <img 
+              src="https://img.cuisineaz.com/660x495/2016/08/29/i79702-risotto-aux-champignons-romarin-et-vin-blanc.jpg" 
+              alt="Risotto Porcini"
+              loading="lazy">
+            <div class="image-overlay">
+              <h3>Risotto Porcini</h3>
+              <p>Élégance et saveur avec champignons de Paris premium</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="image-card fade-up">
+            <img 
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-SaGcfUeBzm5K7eGwsQiWRpXjH_A43U-P5bAwYl2ekmOqcP49mhakC4qiq3odaS0EjtdJGcUY3qNp6-cBwKlcqveGYf4C_kR87bdop-5V7hX3emUHmTSxn8qUkIWIA9x1ZnBNyHSv9rSH/s660/osso-buco.jpg" 
+              alt="Osso Buco"
+              loading="lazy">
+            <div class="image-overlay">
+              <h3>Osso Buco</h3>
+              <p>Chef-d'œuvre milanais à base de moelle et vin blanc</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="image-card fade-up">
+            <img 
+              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=500&fit=crop" 
+              alt="Tiramisu"
+              loading="lazy">
+            <div class="image-overlay">
+              <h3>Tiramisu</h3>
+              <p>Dessert gourmand aux saveurs de café et mascarpone</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="image-card fade-up">
+            <img 
+              src="https://img.fourchette-et-bikini.fr/1200x675/2025/06/23/i226295-panna-cotta-au-coulis-de-framboises.webp" 
+              alt="Panna Cotta"
+              loading="lazy">
+            <div class="image-overlay">
+              <h3>Panna Cotta</h3>
+              <p>Douceur crémeuse nappée de coulis de fruits rouges</p>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="image-card fade-up">
+            <img 
+              src="https://ffcuisine.fr/wp-content/uploads/2024/11/1731284900_lasagnes-bolognaise-legeres-recette-facile-et-savoureuse-1.jpg" 
+              alt="Lasagne"
+              loading="lazy">
+            <div class="image-overlay">
+              <h3>Lasagne Bolognaise</h3>
+              <p>Tradition italienne avec sauce tomate maison</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Nous Contacter</h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <h4>Adresse</h4>
+            <p>123 Rue de la Gastronomie<br />75001 Paris, France</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <h4>Téléphone</h4>
+            <p>+33 1 23 45 67 89</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <h4>Horaires</h4>
+            <p>Mar–Dim : 12h–14h30, 19h–22h30<br />Fermé le lundi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <i class="fas fa-utensils"></i><span>Le&nbsp;Gourmet</span>
+          </div>
+          <p>Une expérience culinaire unique depuis 2003.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Liens rapides</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Suivez-nous</h4>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <!--<a href="#" aria-label="X"><i class="fab fa-twitter"></i></a>-->
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 Le Gourmet. Tous droits réservés.
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="js/menu.js"></script>
+  </body>
+</html>
