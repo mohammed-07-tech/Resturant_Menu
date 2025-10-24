@@ -52,11 +52,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <i class="fas fa-exclamation-triangle"></i> <?= htmlspecialchars($error) ?>
         </div>
       <?php else: ?>
-        <div class="demo-credentials">
-          <h4>Compte démo (si vous avez inséré l’exemple)</h4>
-          <p>Email&nbsp;: admin@example.com</p>
-          <p>Mot de passe&nbsp;: admin123</p>
-        </div>
       <?php endif; ?>
       <form method="post" class="needs-validate" novalidate>
         <div class="form-group">

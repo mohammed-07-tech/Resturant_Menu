@@ -2,10 +2,10 @@
 // db.php — configure your database connection here.
 // ⚠️ Replace credentials with yours.
 $DB_HOST = '127.0.0.1';
-$DB_PORT = '3307';
+$DB_PORT = '3306';
 $DB_NAME = 'restaurant';
 $DB_USER = 'root';
-$DB_PASS = ''; // e.g. 'secret'
+$DB_PASS = ''; 
 
 // DSN + PDO options
 $dsn = "mysql:host=$DB_HOST;port=$DB_PORT;dbname=$DB_NAME;charset=utf8mb4";
